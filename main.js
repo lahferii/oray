@@ -17,15 +17,21 @@ window.onload = function(){
     setInterval(game, 1000/5);
 }
 
-ularX = ularY = 0;
+ularX = ularY = 10;
 kepalaX = kepalaY = 0;
-buahX = buahY = 10;
 setmap = ujungmap = 20;
+buahX = buahY = Math.floor(Math.random()*setmap);
 jejak = [];
 ekor = 3;
 let score = document.getElementById('score');
 let theme = new Audio('aset/theme.mp3');
 let aaa = new Audio('aset/tes.mp3');
+
+function show(){
+    let username = document.getElementById('username').value;
+    return username;
+}
+
 
 let btn = {
     kiri: 65,
@@ -99,7 +105,7 @@ function game(){
                 return;
             }else{
                 ekor = 3;
-                alert('Yahh, baru nyampe '+score.innerHTML+' point:(');
+                alert('Yahh, '+ username.value +' baru nyampe '+score.innerHTML+' point:(');
                 score.innerHTML = 0;
                 document.location = 'index.html';
             }
