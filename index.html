@@ -4,24 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Phyton</title>
 </head>
 <body>
-    
-    <main>
-        <section>
-            <div>
-                <div>
-                    <h1>Ulerrrrr</h1>
+    <main class="w-full h-screen bg-blue-500 text-white">
+        <!-- Intruction Start -->
+        <section id="petunjuk" class="absolute flex w-full h-screen bg-blue-500 text-white">
+            <article class="m-auto">
+                <div class="text-center mb-5">
+                    <h1 class="text-4xl font-semibold tracking-wider">Phyton Game</h1>
+                    <p class="text-lg text-slate-200">Cara baru untuk bersenang senang!</p>
                 </div>
-                <span>Score: <span id="score">0</span></span>
+
+                <div class="mb-5"> 
+                    <ol start="1" class="list-decimal">
+                        <li>Tekan Tombol <strong>W</strong> untuk bergerak ke atas.</li>
+                        <li>Tekan Tombol <strong>A</strong> untuk bergerak ke kiri.</li>
+                        <li>Tekan Tombol <strong>S</strong> untuk bergerak ke bawah.</li>
+                        <li>Tekan Tombol <strong>D</strong> untuk bergerak ke kanan.</li>
+                    </ol>
+                </div>
+
+                <div class="text-center">
+                    <button id="play" class="bg-white text-black px-5 py-1 rounded-sm hover:px-10 duration-300">
+                        Play!
+                    </button>
+                </div>
+
+            </article>
+        </section>
+        <!-- Instruction End -->
+
+        <!-- Canvas Start -->
+        <section class="max-w-[400px] m-auto pt-20">
+            <div class="mb-3 flex justify-between items-center flex-row-reverse">    
+                <h1 class="text-3xl font-semibold tracking-wider">
+                    Phyton
+                </h1>
+
+                <div>
+                    <p class="text-lg">Score: <span id="score">0</span></p>
+                </div>
             </div>
 
             <canvas id="canvas"></canvas>
         </section>
+        <!-- Canvas End -->
     </main>
+    
 
-    <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
