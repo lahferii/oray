@@ -8,4 +8,15 @@ Ini tuh game uler uleran yang kayanya udah familiar banget buat semua orang (?)
 
 # Cara Mainnya gimana?
 - Buka laptop (belum support mobile)
-- buka link
+- Buka link https://zunuru.github.io/oray/
+- Bikin Username, bebas apa aja
+- Tekan Tombol Play
+- Tekan Tombol W buat gerak ke atas
+- Tekan Tombol A buat gerak ke kiri
+- Tekan Tombol S buat gerak ke bawah
+- Tekan Tombol D buat gerak ke kanan
+
+# Mau bilang makasih
+- Buat ALLAH SWT
+- Buat mamah
+- Buat PC Sekolah
