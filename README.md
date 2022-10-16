@@ -19,4 +19,4 @@ Ini tuh game uler uleran yang kayanya udah familiar banget buat semua orang (?)
 # Mau bilang makasih
 - Buat ALLAH SWT
 - Buat mamah
-- Buat PC Sekolah
+- Buat PC Sekolah anti lag dan tahan hujan badai angin ribut
